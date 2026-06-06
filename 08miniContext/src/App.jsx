@@ -6,13 +6,12 @@ import Profile from './Components/Profile'
 
 function App() {
 
-
   return (
     <>
-<UserContextProvider>
- <Login />
- <Profile />
-</UserContextProvider>
+      <UserContextProvider>
+        <Login />
+        <Profile />
+      </UserContextProvider>
     </>
   )
 }
